@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang= "en">
+
+<head>
+<meta charset="utf-8">
+	<title>Supamop - Great LLC</title>
+<!--	<link rel="shortcut icon" href="images/favicon.ico"> -->
+<link rel="stylesheet" href="styles/normalize.css">
+
+<link rel="stylesheet" href="styles/EVGmain.css"> 
+<style>
+imgx {
+   position: fixed;
+   top 200;
+   right: 400;
+}
+</style>
+<script src="scriptaculousCode/lib/prototype.js" type="text/javascript"></script>
+<script src="scriptaculousCode/src/scriptaculous.js" type="text/javascript"></script>
+<script src="scriptaculousCode/src/unittest.js" type="text/javascript"></script>
+<script src="scriptaculousCode/builder.js" type="text/javascript"></script>
+<script src="scriptaculousCode/src/dragdrop.js" type="text/javascript"></script>
+<script src="scriptaculousCode/src/slider.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+function ShowEffect(element)
+{
+   new Effect.Appear(element, {duration: 1, from:0, to 1.0});
+}
+
+function Effect.DropOut(element)
+{
+   if option <> 1
+       {
+   new Effect.DropOut(element, {duration: 20, from:0, to 1.0});
+      var option = 1;
+   }
+   else
+   {
+   new Effect.Appear(element, {duration: 20});
+   
+   }
+}
+
+function Effect.Grow(element)
+{
+   new Effect.Grow(element, {duration: 20, from:0, to 1.0});
+}
+function Effect.Shrink(element)
+{
+   new Effect.Shrink(element, {duration: 1, from:0, to 1.0});
+}
+function Effect.toggle(element)
+  {
+   new Effect.toggle(element, appear);
+   }
+ function Effect.Scale(element, percent)
+  {
+   new Effect.toggle(element, percent);
+   }  
+   
+   
+   
+</script>
+</head>
+
+
+<body>
+	<header>
+	<BR>
+    <P>
+		<img "Effect.Shrink('d1');; return false;"  src= "images/EVGLogoJpg.jpg"  alt="EVG LLC" height="80"> 
+	</P>
+	<br> 
+	<h2> <a href="#" onclick="Effect.DropOut('d3'); return false;">Supermop Brings Smiles to Your Face</a> </h2>	
+		
+	<div id="d3" > 
+
+    <p>  <img src="images/SmilingFace.jpg" alt= "Smile" style = "float:right;width:60px;height:60px;"  > </p>
+
+	<div>
+
+	<p>
+
+	<a href="#" onclick="Effect.Move('d1'); return false;"></a>
+	</p>
+	</div>
+<Br>
+<Br>
+
+<!-- "float:right;width:60px;height:60px;" -->
+   	 </header>		
+
+   	
+	   
+        <a href="#" onclick="Effect.toggle('d2','slide'); return false;" class = "current"> Products </a>
+		<div id="d2" style="display:none;"> 
+		<div style="background-color:#ff8080;width:300px;border:2px solid red;padding:10px;">
+		<p>
+		
+                  <ul>
+                  	 <li><br><a href="products/household.html">For Household </a>  </li>
+                  	 <li><br><a href="products/commercial.html">For Commercial </a> </li>
+
+                  </ul>
+<!--             Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+ Maecenas enim. Nulla facilisi. Vestibulum accumsan augue vulputate justo.
+ Fusce faucibus. Sed blandit, neque sed lacinia nonummy, diam quam imperdiet justo, 
+ at dictum augue nunc a neque. Sed urna lacus, tincidunt at, aliquam id, fringilla id, felis.
+ Vivamus feugiat molestie quam. Sed id dolor. Sed ac purus id sapien
+--> 	</p>
+		</div></div>
+		
+		<Br> <BR> 
+ <a href="#" onclick="Effect.toggle('d6','slide'); return false;" class = "current"> Chance To Win </a>
+		<div id="d6" style="display:none;"> 
+		
+		<div style="background-color:#e6ffff;width:300px;border:2px solid red;padding:10px;">
+		<p>
+		
+                  <ul>
+                  	 <li><br><a href="#" onclick="new Effect.Scale(this.parentNode,200); return false;"> 10% off on next purchase </a>  </li>
+                  	 <li><br><a href="#" onclick="new Effect.Scale(this.parentNode,200); return false;"> 15% off on next purchase </a>  </li>
+					 <li><br><a href="#" onclick="new Effect.Scale(this.parentNode,200); return false;"> 30% off on next purchase </a>  </li>
+					 
+					 <li><br><a href="#" onclick="new Effect.Scale(this.parentNode,200); return false;"> You got 30% discount, the biggest winner of the day! </a>  </li>
+
+                  </ul>
+		</p>
+
+
+		</div></div>
+
+		<br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+				<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+		
+	<footer>
+				<p>&copy; 2019, Evergreat LLC, Eagan, MN 55123</p>	
+	</footer>
+</body>
+</html>
